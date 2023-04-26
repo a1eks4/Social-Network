@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="logo">
+		<img src="img/logo.png">
+	</div>
+	<h1>Drustvena mreza namenjena etickim H4K3RIMA</h1>
+	<div class="main-wrapper">
+		<form id="login-form">
+			<h2>Login</h2>
+
+			<div>
+				<label>Email</label>
+				<input type="email" name="email" id="login_email" placeholder="test@gmail.com">
+			</div>
+
+			<div>
+				<label>Password</label>
+				<input type="password" name="lozinka" id="login_lozinka" placeholder="********">
+			</div>
+
+			<div>
+				<button>Uloguj se</button>
+			</div>
+
+		</form>
+	</div>
+	<div class="no-acc-reg">
+		<p>Nemas nalog?</p>
+		<button class="registracija">Registruj se</button>
+	</div>
+
+	<div class="reg-modal">
+		<button id="closeModal">X</button>
+		<form id="registrationform">
+			<h2>Registracija korisnika</h2>
+
+			<div>
+				<label for="korisnicko_ime">Korisnicko ime: *</label>
+				<input type="text" name="korisnicko_ime" id="korisnicko_ime" placeholder="a1eks4">
+			</div>
+
+			<div>
+				<label for="email">Email adresa: *</label>
+				<input type="text" name="register_email" id="email" placeholder="vukovic.aleksa3@gmail.com">
+			</div>
+
+			<div>
+				<label for="lozinka">Lozinka: *</label>
+				<input type="text" name="register_lozinka" id="lozinka" placeholder="********">
+			</div>
+
+			<div>
+				<label for="ponovi_lozinku">Ponovi lozinku: *</label>
+				<input type="text" name="ponovi_lozinku" id="ponovi_lozinku" placeholder="********">
+			</div>
+
+			<div>
+				<button class="reg-btn">Registruj se</button>
+			</div>
+
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/Validator.js"></script>
+	<script type="text/javascript" src="js/Session.js"></script>
+	<script type="text/javascript" src="js/User.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
